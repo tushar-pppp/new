@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ol{
+display: flex;
+align-items: center;
+align-content: center;
+    list-style: none;
+    position: static;
+
+
+}
+h1,h2,h3{
+    color: red;
+}
+li{
+
+    padding: 40px;
+}
+.out{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+}
+@media (max-width:412px) {
+body{
+    background-color: aqua;
+}
+li{
+    display: block;
+}
+h1{
+    text-align: center;
+}
+    .out{
+display: flex;
+flex-direction: row;break-inside: avoid-column;
+    }
+    li{
+        padding: 10px;
+        flex: none;
+    }
+}
+@media (max-width:412px) {
+   
+ 
+}
